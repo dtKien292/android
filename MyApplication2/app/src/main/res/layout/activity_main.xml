@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="126dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="411dp"
+                    android:layout_height="63dp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/screenshot_2024_03_26_212303" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="410dp"
+                    android:layout_height="62dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/screenshot_2024_03_26_212342" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="413dp"
+                    android:layout_height="257dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/screenshot_2024_03_26_212052" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Man City chấm dứt kỳ tích 10 năm của MU, Rodri ghi danh lịch sử"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 phút trước"
+                android:layout_marginLeft="10dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="142dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/screenshot_2024_03_26_212943" />
+
+                    <TextView
+                        android:id="@+id/baibao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="111dp"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:text="Man City hạ MU: Báo Anh khen chủ nhà bản lĩnh, Roy Keane lo cho &quot;Quỷ đỏ&quot;"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="142dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/img" />
+
+                    <TextView
+                        android:id="@+id/baibao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="111dp"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:text="Kết quả bóng đá Napoli - Juventus: &quot;Tiểu Maradona&quot; ghi siêu phẩm, rượt đuổi nghẹt thở "
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="142dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/screenshot_2024_03_26_212943" />
+
+                    <TextView
+                        android:id="@+id/baibao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="111dp"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:text="Man City hạ MU: Báo Anh khen chủ nhà bản lĩnh, Roy Keane lo cho &quot;Quỷ đỏ&quot;"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="142dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/screenshot_2024_03_26_212943" />
+
+                    <TextView
+                        android:id="@+id/baibao1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="111dp"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp"
+                        android:text="Man City hạ MU: Báo Anh khen chủ nhà bản lĩnh, Roy Keane lo cho &quot;Quỷ đỏ&quot;"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
